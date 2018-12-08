@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300i,400"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/favicon-32x32.png"
+    />
+    <title>Refugee Connect | Profile</title>
+  </head>
+  
+  <body>
+        <header class="header">
+          <a href="index.html" class="brand">Refugee Connect</a>
+          <input class="menu-btn" type="checkbox" id="menu-btn" />
+          <label class="menu-icon" for="menu-btn">
+            <span class="navicon"></span>
+          </label>
+          <nav>
+            <ul class="menu">
+              <li><a href="login.html">Login</a></li>
+              <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+          </nav>
+        </header>
+
+    <div class="container profile">
+      <form method="post">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="profile-img">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS52y5aInsxSm31CvHOFHWujqUx_wWTS9iM6s7BAm21oEN_RiGoog"
+                alt=""
+              />
+              <div class="profile-head">
+                <h5>Kshiti Ghelani</h5>
+                <h6>KhiGhel</h6>
+                <p class="proile-rating">Sponsorship : <span>$5000</span></p>
+                <button>Historic</button>
+              </div>
+            </div>
+            <div class="col-md-4 profile-content">
+              <h4>My Story</h4>
+              <p>
+                Lorem ipsum dolor sit amet, prima exerci accusam eu vis, ei
+                exerci sententiae nam. Mea an quando aliquip laoreet, facer
+                consequat ne mea, sit ut legimus philosophia. Ad cum admodum
+                civibus volumus. Vel ea solum partem minimum, postea nusquam sea
+                an. Suas expetendis intellegebat mea no, tollit detracto est eu,
+                et alii primis deserunt his.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+                
+                <div class="container search-table">
+                           <!-- <div class="search-box">
+                                 <div class="row">
+                                         <input type="text" id="myInput" onkeyup="myFunction()" class="form-control" placeholder="Search your course e.g. web development">
+                                        <script>
+                                            $(document).ready(function () {
+                                                $("#myInput").on("keyup", function () {
+                                                    var value = $(this).val().toLowerCase();
+                                                    $("#myTable tr").filter(function () {
+                                                        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                                                    });
+                                                });
+                                            });
+                                        </script> 
+                                    </div> 
+                                </div> 
+                            </div>-->
+                            <div class="search-list">
+                                <table class="table" id="myTable">
+                                    <thead>
+                                        <tr>
+                                            <th>Courses</th>
+                                            <th>Description</th>
+                                            <th>Take It</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        
+                                    
+                                    <tr>
+                                        <td>HTML</td>
+                                        <td>Web Development</td>
+                                        <td><button class="enrol btn">Enrol</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>PHP</td>
+                                        <td>Web Development</td>
+                                        <td><button class="enrol btn">Enrol</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>C#</td>
+                                        <td>Programming Language</td>
+                                        <td><button class="enrol btn">Enrol</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>JavaScript</td>
+                                        <td>Web Development</td>
+                                        <td><button class="enrol btn">Enrol</button></td>
+                                    </tr>
+                                     <tr>
+                                        <td>Bootstrap</td>
+                                        <td>Web Design</td>
+                                        <td><button class="enrol btn">Enrol</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Python</td>
+                                        <td>Programming Language</td>
+                                        <td><button class="enrol btn">Enrol</button></td>
+                                    </tr>
+                                    <!--
+                                    <tr>
+                                        <td>Android</td>
+                                        <td>App Development</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Angular JS</td>
+                                        <td>Web Delopment</td>
+                                    </tr> -->
+                                    </tbody>
+                                </table>
+                
+                            </div>
+                        </div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <footer><p>Ride My Way | Copyright &copy; 2018</p></footer>
+  </body>
+</html>
